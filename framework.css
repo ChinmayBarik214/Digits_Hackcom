@@ -1,0 +1,39 @@
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+.align-items-center {
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
+    -webkit-align-items: center !important;
+    align-items: center !important;
+}
+.d-none {
+    display: none !important;
+}
+.d-flex {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: -webkit-flex !important;
+    display: flex !important;
+}
+article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
+    display: block;
+}
+.mr-auto, .mx-auto {
+    margin-right: auto!important;
+}
+a {
+    background: transparent;
+    text-decoration: none;
+    outline: none;
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+}
+.uppercase {
+    text-transform: uppercase;
+}

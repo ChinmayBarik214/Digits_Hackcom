@@ -1,0 +1,43 @@
+html.fp-enabled, .fp-enabled, body {
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+    height: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+:root, :host {
+    --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Solid";
+    --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Regular";
+    --fa-font-light: normal 300 1em/1 "Font Awesome 6 Light";
+    --fa-font-thin: normal 100 1em/1 "Font Awesome 6 Thin";
+    --fa-font-duotone: normal 900 1em/1 "Font Awesome 6 Duotone";
+    --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
+}
+html, body {
+    position: relative;
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+body {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 14px;
+    font-family: "Raleway",sans-serif;
+    color: #2d2b50;
+    min-width: 280px;
+    transition: opacity ease-in 0.2s;
+}
+html.fp-enabled {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+html.fp-enabled, body.fp-enabled {
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+    height: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
